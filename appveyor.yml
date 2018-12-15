@@ -27,8 +27,6 @@ build_script:
 artifacts:
   - path: gvsbuild-vs%VS_VER%-%PLATFORM%.tar.gz
 
-cache:
-  - '%DOWNLOAD_DIR%'
 
 deploy: off
 
